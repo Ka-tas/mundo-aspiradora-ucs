@@ -1,4 +1,4 @@
-# 🧹 Mundo de la Aspiradora - Búsqueda de Costo Uniforme (UCS)
+#  Mundo de la Aspiradora - Búsqueda de Costo Uniforme (UCS)
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -11,7 +11,7 @@ Incluye una **interfaz gráfica interactiva (Tkinter)** para visualizar el grafo
 
 ---
 
-## 🌟 Características
+##  Características
 
 - **Algoritmo UCS Completo y Óptimo:** Implementación de búsqueda por costo acumulado $g(n)$ utilizando colas de prioridad (`heapq`) y desempate FIFO por orden de inserción.
 - **Espacio de 8 Estados:** Representación formal de las 2 habitaciones ($A$ y $B$) y sus estados de suciedad ($S$ y $L$).
@@ -26,7 +26,7 @@ Incluye una **interfaz gráfica interactiva (Tkinter)** para visualizar el grafo
 
 ---
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```text
 aspirador/
@@ -69,7 +69,7 @@ aspirador/
 
 ---
 
-## 🚀 Requisitos e Instalación
+##  Requisitos e Instalación
 
 ### Requisitos Previos
 - **Python 3.8 o superior** (incluye soporte para `tkinter`).
@@ -87,7 +87,7 @@ pip install -r requirements-dev.txt
 
 ---
 
-## 💻 Guía de Uso
+##  Guía de Uso
 
 ### 1. Interfaz Gráfica (Modo por defecto)
 Para abrir el simulador visual con controles interactivos:
@@ -115,7 +115,7 @@ python main.py --sin-gui --inicial A-SS --costes 1 1 5
 
 ---
 
-## 🧪 Ejecución de Pruebas Unitarias
+##  Ejecución de Pruebas Unitarias
 
 El proyecto cuenta con pruebas automáticas sin necesidad de librerías externas:
 
@@ -129,7 +129,7 @@ pytest
 
 ---
 
-## 📖 Nomenclatura de Estados
+##  Nomenclatura de Estados
 
 Los estados se codifican en el formato `[Posición]-[A][B]`:
 - **Posición de la aspiradora:** `A` o `B`.
@@ -145,7 +145,7 @@ Para más detalles matemáticos y teóricos, consulta el archivo [TEORIA_Y_MODEL
 
 ---
 
-## 🏛️ Créditos Académicos
+##  Créditos Académicos
 
 Proyecto desarrollado en el marco del curso de **Inteligencia Artificial**, Escuela Profesional de Ingeniería Informática y de Sistemas, **Universidad Nacional de San Antonio Abad del Cusco (UNSAAC)**.
 
