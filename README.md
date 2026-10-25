@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI Tests](https://github.com/usuario/mundo-aspiradora-ucs/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
+[![CI Tests](https://github.com/Ka-tas/mundo-aspiradora-ucs/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
 [![UNSAAC](https://img.shields.io/badge/UNSAAC-IA-red.svg)](https://www.unsaac.edu.pe/)
 
 Implementación modular y visual del clásico problema de Inteligencia Artificial **"El Mundo de la Aspiradora"** (Russell & Norvig, Cap. 3) utilizando el algoritmo de **Búsqueda de Costo Uniforme** (*Uniform Cost Search - UCS*).
@@ -76,7 +76,7 @@ aspirador/
 
 ### Clonar el Repositorio
 ```bash
-git clone https://github.com/tu-usuario/mundo-aspiradora-ucs.git
+git clone https://github.com/Ka-tas/mundo-aspiradora-ucs.git
 cd mundo-aspiradora-ucs
 ```
 
