@@ -1,0 +1,3 @@
+# El proyecto utiliza exclusivamente la Biblioteca Estándar de Python (Python Standard Library).
+# No se requieren dependencias externas para ejecutar el modo consola o la interfaz Tkinter.
+# Versión de Python recomendada: >= 3.8

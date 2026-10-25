@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mundo-aspiradora-ucs"
+version = "1.0.0"
+description = "Simulación y resolución del problema del Mundo de la Aspiradora usando Búsqueda de Costo Uniforme (UCS) con interfaz gráfica interactiva en Tkinter"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Estudiante UNSAAC - Inteligencia Artificial" }
+]
+keywords = [
+    "artificial-intelligence",
+    "uniform-cost-search",
+    "ucs",
+    "vacuum-world",
+    "graph-search",
+    "tkinter",
+    "educational"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Education",
+]
+
+[project.scripts]
+aspiradora-ucs = "aspiradora.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
